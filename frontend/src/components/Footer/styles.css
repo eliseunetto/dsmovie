@@ -1,0 +1,9 @@
+footer {
+    text-align: center;
+    background-color: var(--color-primary);
+    padding: 1em;
+}
+
+p.text-footer {
+    color: lightskyblue;
+}

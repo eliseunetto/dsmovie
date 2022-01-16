@@ -5,6 +5,7 @@ import { BASE_URL } from "utils/request";
 import { MoviePage } from "types/movies";
 import MovieCard from "../../components/MovieCard/index";
 import "./styles.css";
+import Footer from "components/Footer";
 
 function Listing() {
   const [pageNumber, setPageNumber] = useState(0);
@@ -49,6 +50,7 @@ function Listing() {
           })}
         </div>
       </div>
+      <Footer />
     </>
   );
 }
